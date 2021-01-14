@@ -1,11 +1,64 @@
-/*
-● Paleta de colores
-Amarillo: #EAC926;
-Azul: #03264C;
-Celeste: #1259c3;
-Gris oscuro: #666;
-Gris claro: #ebebeb;
-Verde: #39b54a;
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto';
+    text-align: center;
+}
+header {
+   background-color: #EAC926;
+   align-content: center;
+   
+}
+footer>section>i {
+    color:  #03264C;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+i {
+   
+    color:  #03264C;
+    
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+   
+}
+
+h3 { 
+    font-size: 24px;
+}
+p {
+    font-size: 12px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripcion {
+    font-size: 16px;
+}
+
+.burger-menu>i {
+color: white;
+}
+.burger-menu {
+    background-color: #03264C;
+    width: 30px;
+    padding: 5px 5px;
+    height: 20px;
+    border-radius: 15%;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+}
