@@ -1,0 +1,46 @@
+form {
+    width: 80%;
+    margin: auto;
+    max-width: 282px;
+  }
+  
+  label, .txtRadio {
+    font-size: 0.75em;
+    margin: 5px 0px;
+  }
+  
+  input:not(.search) {
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px;
+  }
+  .formCont {
+      padding-top: 15rem;
+    height: 75vh; 
+  }
+  input[type=radio], input[type=checkbox] {
+    width: 5%;
+    margin: 5px;
+  }
+  
+  input[type=submit], input[type=reset] {
+    width: 25%;
+    margin: 10px auto;
+    border-width: 1px;
+  }
+  
+
+  .formCont, .formRegistro{
+    margin: 10px auto;
+    flex-grow: 1;
+  }
+  
+  .formPerfil, .formNombre, .formInt, .formUser {
+    margin: 15px 0px;
+  }
+  
+  .btnReset:hover {
+    cursor: pointer;
+    background-color: #CC1155;
+  }

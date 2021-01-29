@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/480856b811.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/registroAndLogin.css">
+  
+
+
+    <title>Mercado Liebre</title>
+</head>
+
+
+<!--Comienzo del header-->
+<header>
+    <div class="contHead">
+
+      <div class="contLogo">
+        <a href="/home"><img src="/static/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre"></a>
+      </div>
+
+      <div class="contSearch">
+        <input type="search" class="search" name="search" placeholder="Buscar">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+
+    <nav id="nav1">
+
+      <ul class="navMenu">
+        <li><a href="https://www.youtube.com/">Ofertas</a></li>
+        <li><a href="https://www.youtube.com/">Tiendas Oficiales</a> </li>
+        <li><a href="https://www.youtube.com/">Vender</a></li>
+        <li><a href="https://www.youtube.com/">Ayuda</a></li>
+      </ul>
+
+      <ul class="navMenu">
+        <li>
+          <a href="/registro">Creá tu cuenta</a>
+          <i class="fas fa-user-circle"></i>
+        </li>
+        <li>
+          <a href="login">Ingresá</a>
+          <i class="fas fa-sign-in-alt"></i>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/">Mis Compras</a>
+          <i class="fas fa-shopping-basket"></i>
+        </li>
+      </ul>
+    </nav>
+    <nav id="btnMenu">
+      <i class="fas fa-bars"></i>
+    </nav>
+  </header>
+<body>
+    <form class="formRegistro" action="/home" method="GET">
+
+        <div class="formNombre">
+            <h5>Datos Personales</h5>
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="user">Nombre de usuario:</label>
+            <input type="text" id="user" name="user" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="FechaNac">Fecha Nacimiento:</label>
+            <input type="date" id="fechaNac" name="fechaNac" required>
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio" required>
+        </div>
+
+        <div class="formPerfil">
+            <h5>Perfil</h5>
+            <div class="radioBtn"><input type="radio" name="perfil" id="radioC" value="C"><span class="txtRadio">Compra</span></div>
+            <div class="radioBtn"><input type="radio" name="perfil" id="radioV" value="V"><span class="txtRadio">Venta</span></div>
+        </div>
+
+        <div class="formInt">
+            <h5>Categoria de Interes</h5>
+            <div class="chkBox"><input type="checkbox" name="hobby" value="P"><span class="txtRadio">Electro</span></div>
+            <div class="chkBox"><input type="checkbox" name="hobby" value="C"><span class="txtRadio">Moda</span></div>
+            <div class="chkBox"><input type="checkbox" name="hobby" value="Y"><span class="txtRadio">Hogar</span></div>
+            <div class="chkBox"><input type="checkbox" name="hobby" value="C"><span class="txtRadio">Jugueteria</span></div>
+            <div class="chkBox"><input type="checkbox" name="hobby" value="Y"><span class="txtRadio">Vida Sana</span></div>
+        </div>
+
+        <h5>Foto Usuario:</h5>
+        <input type="file" id="foto" name="foto" required>
+
+        <div class="formUser">
+            <h5>Contraseña:</h5>
+            <label for="psw">Contraseña:</label>
+            <input type="password" id="psw" name="psw" required>
+            <label for="psw2">Repite Contraseña:</label>
+            <input type="password" id="psw2" name="psw2" required>
+
+            <input class="btn" type="submit" value="Enviar">
+            <input class="btnReset" type="reset"  value="Borrar">
+        </div>
+    </form>
+
+    <footer>
+    
+        <div class="contFooterItm">
+          <ul class="footer">
+            <li><i class="far fa-credit-card"></i></li>
+            <li class="f1">Pagá con tarjeta o en efectivo</li>
+            <li class="f2">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de pago. ¡Y
+              siempre
+              es
+              seguro!</li>
+          </ul>
+        </div>
+    
+        <div class="contFooterItm">
+          <ul class="footer">
+            <li><i class="fas fa-gift"></i></li>
+            <li class="f1">Envío gratis desde los $ 2.500</li>
+            <li class="f2">Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un
+              beneficio de
+              MercadoPuntos.</li>
+          </ul>
+        </div>
+    
+        <div class="contFooterItm">
+          <ul class="footer">
+            <li><i class="fas fa-user-shield"></i></li>
+            <li class="f1">Seguridad, de principio a fin</li>
+            <li class="f2">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre
+              prtegid@.</li>
+          </ul class="footer">
+        </div>
+        <p class="copy">Copyright © 1999-2019 MercadoLiebre S.R.L</p>
+      </footer>
+</body>
+
+</html>

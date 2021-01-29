@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/480856b811.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/registroAndLogin.css">
+
+
+    <title>Mercado Liebre</title>
+</head>
+
+<body>
+    <!--Comienzo del header-->
+    <header>
+        <div class="contHead">
+    
+          <div class="contLogo">
+            <a href="/home"><img src="/static/img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre"></a>
+          </div>
+    
+          <div class="contSearch">
+            <input type="search" class="search" name="search" placeholder="Buscar">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+    
+        <nav id="nav1">
+    
+          <ul class="navMenu">
+            <li><a href="https://www.youtube.com/">Ofertas</a></li>
+            <li><a href="https://www.youtube.com/">Tiendas Oficiales</a> </li>
+            <li><a href="https://www.youtube.com/">Vender</a></li>
+            <li><a href="https://www.youtube.com/">Ayuda</a></li>
+          </ul>
+    
+          <ul class="navMenu">
+            <li>
+              <a href="/registro">Creá tu cuenta</a>
+              <i class="fas fa-user-circle"></i>
+            </li>
+            <li>
+              <a href="login">Ingresá</a>
+              <i class="fas fa-sign-in-alt"></i>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/">Mis Compras</a>
+              <i class="fas fa-shopping-basket"></i>
+            </li>
+          </ul>
+        </nav>
+        <nav id="btnMenu">
+          <i class="fas fa-bars"></i>
+        </nav>
+      </header>
+<main>
+    <div class="formCont">
+        <form action="/home" method="GET">
+
+            <label for="user">Usuario:</label>
+            <input type="text" id="user" name="user" required>
+            <label for="psw">Contraseña:</label>
+            <input type="password" id="psw" name="psw" required>
+            <input class="btn" type="submit" value="enviar">
+        </form>
+    </div>
+</main>
+      <footer>
+    
+        <div class="contFooterItm">
+          <ul class="footer">
+            <li><i class="far fa-credit-card"></i></li>
+            <li class="f1">Pagá con tarjeta o en efectivo</li>
+            <li class="f2">Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de pago. ¡Y
+              siempre
+              es
+              seguro!</li>
+          </ul>
+        </div>
+    
+        <div class="contFooterItm">
+          <ul class="footer">
+            <li><i class="fas fa-gift"></i></li>
+            <li class="f1">Envío gratis desde los $ 2.500</li>
+            <li class="f2">Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de productos. Es un
+              beneficio de
+              MercadoPuntos.</li>
+          </ul>
+        </div>
+    
+        <div class="contFooterItm">
+          <ul class="footer">
+            <li><i class="fas fa-user-shield"></i></li>
+            <li class="f1">Seguridad, de principio a fin</li>
+            <li class="f2">¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre
+              prtegid@.</li>
+          </ul class="footer">
+        </div>
+        <p class="copy">Copyright © 1999-2019 MercadoLiebre S.R.L</p>
+      </footer>
+    </body>
+    
+    </html>
